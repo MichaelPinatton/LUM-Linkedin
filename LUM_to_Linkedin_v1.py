@@ -2,7 +2,7 @@ import openai
 import re
 import streamlit as st
 
-openai.api_key == st.secrets["api_key"]
+openai.api_key = st.secrets["api_key"]
 
 st.title('Web Article ➡️ Linkedin Post')
 
