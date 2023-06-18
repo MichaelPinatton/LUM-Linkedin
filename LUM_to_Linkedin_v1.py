@@ -1,6 +1,5 @@
 import openai
 import re
-import trafilatura
 import streamlit as st
 
 openai.api_key == st.secrets["api_key"]
