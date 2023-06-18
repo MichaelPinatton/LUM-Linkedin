@@ -93,7 +93,7 @@ if submit_button2:
         summaries = []
         for i, part in enumerate(parts):
             prompt_system = f"You are a content writer specialized in summarizing text in a comprehensive manner. You will answer in {selected_lang} language only."
-            prompt_summarize = f"Summarize the following text in less than 100 words for part {i+1}: {part}"
+            prompt_summarize = f"Summarize the following text in less than 120 words for part {i+1}: {part}"
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
